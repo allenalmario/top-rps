@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: red 3px solid;
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.logs p {
+    margin: 10px;
+}
+
+.buttons button {
+    margin: 10px;
+}
